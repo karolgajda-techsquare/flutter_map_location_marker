@@ -121,10 +121,11 @@ packages:
   flutter_map:
     dependency: "direct main"
     description:
-      name: flutter_map
-      sha256: df33e784b09fae857c6261a5521dd42bd4d3342cb6200884bb70730638af5fd5
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: master
+      resolved-ref: "7d9dd324880444720db1dfe5316b15cdc9b4e948"
+      url: "https://github.com/fleaflet/flutter_map.git"
+    source: git
     version: "8.2.1"
   flutter_map_location_marker:
     dependency: "direct main"

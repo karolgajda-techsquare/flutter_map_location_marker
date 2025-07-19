@@ -10,6 +10,8 @@ platforms:
   web:
   windows:
 
+publish_to: 'none'
+
 environment:
   sdk: ^3.7.2
   flutter: ">=3.29.0"
@@ -17,7 +19,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map: ^8.2.1
+  flutter_map:
+    git:
+      url: https://github.com/fleaflet/flutter_map.git
+      ref: master
   flutter_rotation_sensor: ^0.1.1
   geolocator: ^14.0.2
   latlong2: ^0.9.1
